@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Đơn vị vận chuyển | Blog tin tức</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
+@extends('pages.menu.header')
+@extends('pages.menu.footer')
+@section('title','Tin tức')
+@section('header')
+
 <link rel="icon" href="{{asset('public/fontend/img/logo/logo.png')}}" type="image/x-icon/">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" type="text/css" href="{{asset('public/fontend/css/styleblog.css')}}">
@@ -84,6 +84,5 @@ background:linear-gradient(#FF4500,#FFA500)
 </div>
 
 
-
-</body>
-</html>
+@section('footer')
+@endsection
